@@ -1,0 +1,12 @@
+../holse/config.c:20:6:setInput	12	static
+../holse/config.c:26:6:setInputClick	12	static
+../holse/config.c:32:6:setInputDoubleClick	12	static
+../holse/config.c:38:6:setInputLPress	12	static
+../holse/config.c:45:6:setConfigTimer	0	static
+../holse/config.c:50:15:getInput	0	static
+../holse/config.c:54:15:getInputClick	0	static
+../holse/config.c:58:15:getInputDoubleClick	0	static
+../holse/config.c:62:15:getInputLPress	0	static
+../holse/config.c:67:15:getConfigTimer	0	static
+../holse/config.c:72:5:loadFromFlash	56	static
+../holse/config.c:92:5:saveToFlash	8	static

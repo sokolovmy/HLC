@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/holse/Документы/Home_Light_Controller_v0.4/relay_board.sch</source>
+    <date>Fri 26 Feb 2021 21:37:25 +04</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/4relay_block/" tstamps="/601F706D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4relay_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/sheet60201268/" tstamps="/6020126F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4relay_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/3relay_block/" tstamps="/60201337/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4relay_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/sheet6028DD5A/" tstamps="/6028DD61/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4relay_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>To_Main_Board</value>
+      <footprint>holse:IDC-Header_2x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x20_Female" description="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60201759</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Main Board Power</value>
+      <footprint>holse:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022BFCE</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Power</value>
+      <footprint>Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022C7B0</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>To_Main_Board</value>
+      <footprint>holse:IDC-Header_2x10_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x20_Female" description="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603783FC</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/4relay_block/" tstamps="/601F706D/"/>
+      <tstamp>601F8F46</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Relay out</value>
+      <footprint>holse:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/4relay_block/" tstamps="/601F706D/"/>
+      <tstamp>601F8F4C</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/4relay_block/" tstamps="/601F706D/"/>
+      <tstamp>601F9B14</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/4relay_block/" tstamps="/601F706D/"/>
+      <tstamp>601FA897</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/4relay_block/" tstamps="/601F706D/"/>
+      <tstamp>601FB486</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Relay out</value>
+      <footprint>holse:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/4relay_block/" tstamps="/601F706D/"/>
+      <tstamp>6036DE45</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/sheet60201268/" tstamps="/6020126F/"/>
+      <tstamp>601F8F46</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Relay out</value>
+      <footprint>holse:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/sheet60201268/" tstamps="/6020126F/"/>
+      <tstamp>601F8F4C</tstamp>
+    </comp>
+    <comp ref="K6">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/sheet60201268/" tstamps="/6020126F/"/>
+      <tstamp>601F9B14</tstamp>
+    </comp>
+    <comp ref="K7">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/sheet60201268/" tstamps="/6020126F/"/>
+      <tstamp>601FA897</tstamp>
+    </comp>
+    <comp ref="K8">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/sheet60201268/" tstamps="/6020126F/"/>
+      <tstamp>601FB486</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Relay out</value>
+      <footprint>holse:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/sheet60201268/" tstamps="/6020126F/"/>
+      <tstamp>6036DE45</tstamp>
+    </comp>
+    <comp ref="K9">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/3relay_block/" tstamps="/60201337/"/>
+      <tstamp>601F8F46</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Relay out</value>
+      <footprint>holse:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/3relay_block/" tstamps="/60201337/"/>
+      <tstamp>601F8F4C</tstamp>
+    </comp>
+    <comp ref="K10">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/3relay_block/" tstamps="/60201337/"/>
+      <tstamp>601F9B14</tstamp>
+    </comp>
+    <comp ref="K11">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/3relay_block/" tstamps="/60201337/"/>
+      <tstamp>601FA897</tstamp>
+    </comp>
+    <comp ref="K12">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/3relay_block/" tstamps="/60201337/"/>
+      <tstamp>601FB486</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Relay out</value>
+      <footprint>holse:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/3relay_block/" tstamps="/60201337/"/>
+      <tstamp>6036DE45</tstamp>
+    </comp>
+    <comp ref="K13">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/sheet6028DD5A/" tstamps="/6028DD61/"/>
+      <tstamp>601F8F46</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Relay out</value>
+      <footprint>holse:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/sheet6028DD5A/" tstamps="/6028DD61/"/>
+      <tstamp>601F8F4C</tstamp>
+    </comp>
+    <comp ref="K14">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/sheet6028DD5A/" tstamps="/6028DD61/"/>
+      <tstamp>601F9B14</tstamp>
+    </comp>
+    <comp ref="K15">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/sheet6028DD5A/" tstamps="/6028DD61/"/>
+      <tstamp>601FA897</tstamp>
+    </comp>
+    <comp ref="K16">
+      <value>RT334012</value>
+      <footprint>holse:Relay_DPST_Schrack-RT2-FormA_RM5mm</footprint>
+      <libsource lib="Relay" part="RTE4xxxx" description="Schrack RT2 relay, monostable dual pole normally open, DC or AC coil"/>
+      <sheetpath names="/sheet6028DD5A/" tstamps="/6028DD61/"/>
+      <tstamp>601FB486</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Relay out</value>
+      <footprint>holse:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/sheet6028DD5A/" tstamps="/6028DD61/"/>
+      <tstamp>6036DE45</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x20_Female">
+      <description>Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x20_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="RT44xxxx">
+      <aliases>
+        <alias>RTE4xxxx</alias>
+      </aliases>
+      <description>Schrack RT2 relay, monostable dual pole normally open, DC or AC coil</description>
+      <docs>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7FRT2%7F1014%7Fpdf%7FEnglish%7FENG_DS_RT2_1014.pdf%7F6-1393243-3</docs>
+      <footprints>
+        <fp>Relay*DPST*RT2*FormA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">RT44xxxx</field>
+        <field name="Footprint">Relay_THT:Relay_DPST_Schrack-RT2-FormA_RM5mm</field>
+      </fields>
+      <pins>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="21" name="~" type="passive"/>
+        <pin num="24" name="~" type="passive"/>
+        <pin num="A1" name="~" type="passive"/>
+        <pin num="A2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/usr/share/kicad/library/Relay.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="/L15">
+      <node ref="J1" pin="15"/>
+      <node ref="J12" pin="15"/>
+      <node ref="K15" pin="A1"/>
+    </net>
+    <net code="3" name="/L16">
+      <node ref="J1" pin="16"/>
+      <node ref="J12" pin="16"/>
+      <node ref="K16" pin="A1"/>
+    </net>
+    <net code="4" name="/COM">
+      <node ref="K12" pin="A2"/>
+      <node ref="K8" pin="A2"/>
+      <node ref="K3" pin="A2"/>
+      <node ref="K15" pin="A2"/>
+      <node ref="K14" pin="A2"/>
+      <node ref="K13" pin="A2"/>
+      <node ref="K10" pin="A2"/>
+      <node ref="K16" pin="A2"/>
+      <node ref="K11" pin="A2"/>
+      <node ref="K9" pin="A2"/>
+      <node ref="J1" pin="17"/>
+      <node ref="J1" pin="18"/>
+      <node ref="K5" pin="A2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J12" pin="18"/>
+      <node ref="J12" pin="17"/>
+      <node ref="K1" pin="A2"/>
+      <node ref="K2" pin="A2"/>
+      <node ref="K6" pin="A2"/>
+      <node ref="K7" pin="A2"/>
+      <node ref="K4" pin="A2"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="J1" pin="19"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J12" pin="20"/>
+      <node ref="J12" pin="19"/>
+    </net>
+    <net code="6" name="/L1">
+      <node ref="J12" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="K1" pin="A1"/>
+    </net>
+    <net code="7" name="/L13">
+      <node ref="K13" pin="A1"/>
+      <node ref="J1" pin="13"/>
+      <node ref="J12" pin="13"/>
+    </net>
+    <net code="8" name="/L12">
+      <node ref="J1" pin="12"/>
+      <node ref="K12" pin="A1"/>
+      <node ref="J12" pin="12"/>
+    </net>
+    <net code="9" name="/L11">
+      <node ref="K11" pin="A1"/>
+      <node ref="J12" pin="11"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="10" name="/L10">
+      <node ref="J12" pin="10"/>
+      <node ref="J1" pin="10"/>
+      <node ref="K10" pin="A1"/>
+    </net>
+    <net code="11" name="/L4">
+      <node ref="J1" pin="4"/>
+      <node ref="K4" pin="A1"/>
+      <node ref="J12" pin="4"/>
+    </net>
+    <net code="12" name="/L3">
+      <node ref="K3" pin="A1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="13" name="/L2">
+      <node ref="K2" pin="A1"/>
+      <node ref="J12" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="14" name="/L14">
+      <node ref="J1" pin="14"/>
+      <node ref="K14" pin="A1"/>
+      <node ref="J12" pin="14"/>
+    </net>
+    <net code="16" name="/L5">
+      <node ref="J1" pin="5"/>
+      <node ref="J12" pin="5"/>
+      <node ref="K5" pin="A1"/>
+    </net>
+    <net code="17" name="/L6">
+      <node ref="K6" pin="A1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J12" pin="6"/>
+    </net>
+    <net code="18" name="/L7">
+      <node ref="J1" pin="7"/>
+      <node ref="K7" pin="A1"/>
+      <node ref="J12" pin="7"/>
+    </net>
+    <net code="19" name="/L8">
+      <node ref="K8" pin="A1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J12" pin="8"/>
+    </net>
+    <net code="20" name="/L9">
+      <node ref="K9" pin="A1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J12" pin="9"/>
+    </net>
+    <net code="21" name="/4relay_block/4">
+      <node ref="K4" pin="24"/>
+      <node ref="J5" pin="3"/>
+      <node ref="K4" pin="14"/>
+    </net>
+    <net code="22" name="/4relay_block/L2">
+      <node ref="J5" pin="2"/>
+      <node ref="K4" pin="11"/>
+      <node ref="K4" pin="21"/>
+      <node ref="K3" pin="21"/>
+      <node ref="K3" pin="11"/>
+    </net>
+    <net code="23" name="/4relay_block/2">
+      <node ref="K2" pin="24"/>
+      <node ref="J4" pin="3"/>
+      <node ref="K2" pin="14"/>
+    </net>
+    <net code="24" name="/4relay_block/3">
+      <node ref="K3" pin="14"/>
+      <node ref="J5" pin="1"/>
+      <node ref="K3" pin="24"/>
+    </net>
+    <net code="25" name="/4relay_block/1">
+      <node ref="K1" pin="24"/>
+      <node ref="K1" pin="14"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="26" name="/4relay_block/L1">
+      <node ref="K1" pin="11"/>
+      <node ref="K2" pin="21"/>
+      <node ref="K1" pin="21"/>
+      <node ref="J4" pin="2"/>
+      <node ref="K2" pin="11"/>
+    </net>
+    <net code="27" name="/sheet60201268/4">
+      <node ref="J7" pin="3"/>
+      <node ref="K8" pin="14"/>
+      <node ref="K8" pin="24"/>
+    </net>
+    <net code="28" name="/sheet60201268/L2">
+      <node ref="K8" pin="11"/>
+      <node ref="K7" pin="21"/>
+      <node ref="K7" pin="11"/>
+      <node ref="J7" pin="2"/>
+      <node ref="K8" pin="21"/>
+    </net>
+    <net code="29" name="/sheet60201268/2">
+      <node ref="J6" pin="3"/>
+      <node ref="K6" pin="24"/>
+      <node ref="K6" pin="14"/>
+    </net>
+    <net code="30" name="/sheet60201268/3">
+      <node ref="K7" pin="24"/>
+      <node ref="K7" pin="14"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="31" name="/sheet60201268/L1">
+      <node ref="K5" pin="11"/>
+      <node ref="K5" pin="21"/>
+      <node ref="J6" pin="2"/>
+      <node ref="K6" pin="11"/>
+      <node ref="K6" pin="21"/>
+    </net>
+    <net code="32" name="/sheet60201268/1">
+      <node ref="J6" pin="1"/>
+      <node ref="K5" pin="24"/>
+      <node ref="K5" pin="14"/>
+    </net>
+    <net code="33" name="/3relay_block/4">
+      <node ref="K12" pin="24"/>
+      <node ref="K12" pin="14"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="34" name="/3relay_block/L2">
+      <node ref="K12" pin="21"/>
+      <node ref="K12" pin="11"/>
+      <node ref="J9" pin="2"/>
+      <node ref="K11" pin="11"/>
+      <node ref="K11" pin="21"/>
+    </net>
+    <net code="35" name="/3relay_block/3">
+      <node ref="J9" pin="1"/>
+      <node ref="K11" pin="14"/>
+      <node ref="K11" pin="24"/>
+    </net>
+    <net code="36" name="/3relay_block/2">
+      <node ref="K10" pin="24"/>
+      <node ref="K10" pin="14"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="37" name="/3relay_block/1">
+      <node ref="K9" pin="14"/>
+      <node ref="K9" pin="24"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="38" name="/3relay_block/L1">
+      <node ref="K10" pin="21"/>
+      <node ref="K9" pin="21"/>
+      <node ref="J8" pin="2"/>
+      <node ref="K10" pin="11"/>
+      <node ref="K9" pin="11"/>
+    </net>
+    <net code="39" name="/sheet6028DD5A/4">
+      <node ref="J11" pin="3"/>
+      <node ref="K16" pin="24"/>
+      <node ref="K16" pin="14"/>
+    </net>
+    <net code="40" name="/sheet6028DD5A/L2">
+      <node ref="K16" pin="11"/>
+      <node ref="K16" pin="21"/>
+      <node ref="K15" pin="21"/>
+      <node ref="K15" pin="11"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="41" name="/sheet6028DD5A/2">
+      <node ref="J10" pin="3"/>
+      <node ref="K14" pin="24"/>
+      <node ref="K14" pin="14"/>
+    </net>
+    <net code="42" name="/sheet6028DD5A/3">
+      <node ref="K15" pin="24"/>
+      <node ref="J11" pin="1"/>
+      <node ref="K15" pin="14"/>
+    </net>
+    <net code="43" name="/sheet6028DD5A/1">
+      <node ref="J10" pin="1"/>
+      <node ref="K13" pin="14"/>
+      <node ref="K13" pin="24"/>
+    </net>
+    <net code="44" name="/sheet6028DD5A/L1">
+      <node ref="K14" pin="21"/>
+      <node ref="K14" pin="11"/>
+      <node ref="J10" pin="2"/>
+      <node ref="K13" pin="21"/>
+      <node ref="K13" pin="11"/>
+    </net>
+  </nets>
+</export>

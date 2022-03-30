@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 604AD139
+P 2550 1600
+AR Path="/604AD139" Ref="#PWR?"  Part="1" 
+AR Path="/60497798/604AD139" Ref="#PWR?"  Part="1" 
+AR Path="/60250CF0/604AD139" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 2550 1350 50  0001 C CNN
+F 1 "GND" H 2555 1427 50  0000 C CNN
+F 2 "" H 2550 1600 50  0001 C CNN
+F 3 "" H 2550 1600 50  0001 C CNN
+	1    2550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 604AD13F
+P 2100 1600
+AR Path="/604AD13F" Ref="R?"  Part="1" 
+AR Path="/60497798/604AD13F" Ref="R?"  Part="1" 
+AR Path="/60250CF0/604AD13F" Ref="R5"  Part="1" 
+F 0 "R5" V 2000 1500 50  0000 C CNN
+F 1 "10k" V 2000 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 1600 50  0001 C CNN
+F 3 "~" H 2100 1600 50  0001 C CNN
+F 4 "C99198" V 2100 1600 50  0001 C CNN "LCSC Part"
+	1    2100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 604AD145
+P 2400 1600
+AR Path="/604AD145" Ref="D?"  Part="1" 
+AR Path="/60497798/604AD145" Ref="D?"  Part="1" 
+AR Path="/60250CF0/604AD145" Ref="D34"  Part="1" 
+F 0 "D34" H 2400 1500 50  0000 C CNN
+F 1 "LEDR" H 2400 1700 50  0000 C CNN
+F 2 "holse:LED_0805_2012Metric_Castellated" H 2400 1600 50  0001 C CNN
+F 3 "" H 2400 1600 50  0001 C CNN
+F 4 "C130114" H 2400 1600 50  0001 C CNN "LCSC Part"
+	1    2400 1600
+	-1   0    0    1   
+$EndComp
+Connection ~ 2550 1600
+$Comp
+L Device:R R?
+U 1 1 604AD14C
+P 2100 1200
+AR Path="/604AD14C" Ref="R?"  Part="1" 
+AR Path="/60497798/604AD14C" Ref="R?"  Part="1" 
+AR Path="/60250CF0/604AD14C" Ref="R4"  Part="1" 
+F 0 "R4" V 2000 1100 50  0000 C CNN
+F 1 "10k" V 2000 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 1200 50  0001 C CNN
+F 3 "~" H 2100 1200 50  0001 C CNN
+F 4 "C99198" V 2100 1200 50  0001 C CNN "LCSC Part"
+	1    2100 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 604AD152
+P 2400 1200
+AR Path="/604AD152" Ref="D?"  Part="1" 
+AR Path="/60497798/604AD152" Ref="D?"  Part="1" 
+AR Path="/60250CF0/604AD152" Ref="D33"  Part="1" 
+F 0 "D33" H 2400 1100 50  0000 C CNN
+F 1 "LEDG" H 2400 1300 50  0000 C CNN
+F 2 "holse:LED_0805_2012Metric_Castellated" H 2400 1200 50  0001 C CNN
+F 3 "" H 2400 1200 50  0001 C CNN
+F 4 "C205442" H 2400 1200 50  0001 C CNN "LCSC Part"
+	1    2400 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 604AD15A
+P 2100 2450
+AR Path="/604AD15A" Ref="SW?"  Part="1" 
+AR Path="/60497798/604AD15A" Ref="SW?"  Part="1" 
+AR Path="/60250CF0/604AD15A" Ref="SW1"  Part="1" 
+F 0 "SW1" V 2146 2402 50  0000 R CNN
+F 1 "BTN" V 2055 2402 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVPBF" H 2100 2650 50  0001 C CNN
+F 3 "~" H 2100 2650 50  0001 C CNN
+F 4 "C620321" V 2100 2450 50  0001 C CNN "LCSC Part"
+	1    2100 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604AD160
+P 2100 2700
+AR Path="/604AD160" Ref="#PWR?"  Part="1" 
+AR Path="/60497798/604AD160" Ref="#PWR?"  Part="1" 
+AR Path="/60250CF0/604AD160" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 2100 2450 50  0001 C CNN
+F 1 "GND" H 2105 2527 50  0000 C CNN
+F 2 "" H 2100 2700 50  0001 C CNN
+F 3 "" H 2100 2700 50  0001 C CNN
+	1    2100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 604AD166
+P 2400 2700
+AR Path="/604AD166" Ref="R?"  Part="1" 
+AR Path="/60497798/604AD166" Ref="R?"  Part="1" 
+AR Path="/60250CF0/604AD166" Ref="R7"  Part="1" 
+F 0 "R7" V 2300 2600 50  0000 C CNN
+F 1 "100" V 2300 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 2700 50  0001 C CNN
+F 3 "~" H 2400 2700 50  0001 C CNN
+F 4 "C86983" V 2400 2700 50  0001 C CNN "LCSC Part"
+	1    2400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 604AD16C
+P 2550 2450
+AR Path="/604AD16C" Ref="C?"  Part="1" 
+AR Path="/60497798/604AD16C" Ref="C?"  Part="1" 
+AR Path="/60250CF0/604AD16C" Ref="C7"  Part="1" 
+F 0 "C7" H 2665 2496 50  0000 L CNN
+F 1 "100nf" H 2665 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2588 2300 50  0001 C CNN
+F 3 "~" H 2550 2450 50  0001 C CNN
+F 4 "C83056" H 2550 2450 50  0001 C CNN "LCSC Part"
+	1    2550 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2300 2550 2250
+Wire Wire Line
+	2550 2250 2100 2250
+Wire Wire Line
+	1900 2250 2100 2250
+Connection ~ 2100 2250
+$Comp
+L Device:R R?
+U 1 1 604AD177
+P 2100 2100
+AR Path="/604AD177" Ref="R?"  Part="1" 
+AR Path="/60497798/604AD177" Ref="R?"  Part="1" 
+AR Path="/60250CF0/604AD177" Ref="R6"  Part="1" 
+F 0 "R6" V 2000 2000 50  0000 C CNN
+F 1 "100k" V 2000 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 2100 50  0001 C CNN
+F 3 "~" H 2100 2100 50  0001 C CNN
+F 4 "C177329" V 2100 2100 50  0001 C CNN "LCSC Part"
+	1    2100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 604AD17D
+P 2100 1950
+AR Path="/604AD17D" Ref="#PWR?"  Part="1" 
+AR Path="/60497798/604AD17D" Ref="#PWR?"  Part="1" 
+AR Path="/60250CF0/604AD17D" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 2100 1800 50  0001 C CNN
+F 1 "VCC" H 2115 2123 50  0000 C CNN
+F 2 "" H 2100 1950 50  0001 C CNN
+F 3 "" H 2100 1950 50  0001 C CNN
+	1    2100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2700 2100 2700
+Wire Wire Line
+	2100 2650 2100 2700
+Connection ~ 2100 2700
+Wire Wire Line
+	2550 2700 2550 2600
+Wire Wire Line
+	2550 1200 2550 1600
+Text HLabel 1900 2250 0    50   BiDi ~ 0
+BTN
+Text HLabel 1950 1200 0    50   Input ~ 0
+LED_GREEN
+Text HLabel 1950 1600 0    50   Input ~ 0
+LED_RED
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 6026442F
+P 2100 1950
+F 0 "#FLG01" H 2100 2025 50  0001 C CNN
+F 1 "PWR_FLAG" V 2100 2078 50  0000 L CNN
+F 2 "" H 2100 1950 50  0001 C CNN
+F 3 "~" H 2100 1950 50  0001 C CNN
+	1    2100 1950
+	0    1    1    0   
+$EndComp
+Connection ~ 2100 1950
+$EndSCHEMATC

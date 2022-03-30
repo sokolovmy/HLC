@@ -1,0 +1,7 @@
+Reference, Quantity, Value, Footprint, Datasheet
+J1 ,1,"To_Main_Board","holse:IDC-Header_2x10_P2.54mm_Vertical","~"
+J12 ,1,"To_Main_Board","holse:IDC-Header_2x10_P2.54mm_Horizontal","~"
+J2 ,1,"Main Board Power","holse:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm","~"
+J3 ,1,"Power","Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal","~"
+J4 J5 J6 J7 J8 J9 J10 J11 ,8,"Relay out","holse:PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal","~"
+K1 K2 K3 K4 K5 K6 K7 K8 K9 K10 K11 K12 K13 K14 K15 K16 ,16,"RT334012","holse:Relay_DPST_Schrack-RT2-FormA_RM5mm",""

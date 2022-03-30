@@ -1,0 +1,4 @@
+../holse/leds_walk.c:8:6:SendData	24	static
+../holse/leds_walk.c:22:6:ledsUp	24	static
+../holse/leds_walk.c:31:6:ledsDown	24	static
+../holse/leds_walk.c:41:6:LedsWalk	8	static

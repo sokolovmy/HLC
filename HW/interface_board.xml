@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/holse/Документы/Home_Light_Controller_v0.4/interface_board.sch</source>
+    <date>Fri 26 Feb 2021 21:34:04 +04</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>interface_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Output Leds/" tstamps="/602C5C7A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>output_leds.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>out_leds_8bit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>out_leds_8bit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>out_leds_8bit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>out_leds_8bit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/leds_btn/" tstamps="/60250CF0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>leds_btn.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/USB/" tstamps="/6024B004/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Program_M_Board</value>
+      <footprint>holse:Program_Crossboard</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602594D6</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Program</value>
+      <footprint>holse:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6025AE70</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Crossboard</value>
+      <footprint>holse:Crossboard</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60251CCD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C177329</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Output Leds/" tstamps="/602C5C7A/"/>
+      <tstamp>602CD714</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C1592</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output Leds/" tstamps="/602C5C7A/"/>
+      <tstamp>602CD71B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C177329</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Output Leds/" tstamps="/602C5C7A/"/>
+      <tstamp>602CD731</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C177329</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Output Leds/" tstamps="/602C5C7A/"/>
+      <tstamp>602CD740</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output Leds/" tstamps="/602C5C7A/"/>
+      <tstamp>6023BDEB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOIC-16_4.55x10.3mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C5947</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6028E55B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C83056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6028E5A6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6029F42E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6029F43B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6029F441</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6029F474</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6029F47A</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6029F480</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6029F486</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>6029F48C</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>10k</value>
+      <footprint>holse:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C164037</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>602CF98C</tstamp>
+    </comp>
+    <comp ref="RN2">
+      <value>10k</value>
+      <footprint>holse:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C164037</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/Output Leds/out_leds_8bit1/" tstamps="/602C5C7A/602882F1/"/>
+      <tstamp>602DCFF2</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOIC-16_4.55x10.3mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C5947</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6028E55B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C83056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6028E5A6</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6029F42E</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6029F43B</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6029F441</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6029F474</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6029F47A</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6029F480</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6029F486</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>6029F48C</tstamp>
+    </comp>
+    <comp ref="RN3">
+      <value>10k</value>
+      <footprint>holse:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C164037</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>602CF98C</tstamp>
+    </comp>
+    <comp ref="RN4">
+      <value>10k</value>
+      <footprint>holse:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C164037</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/Output Leds/sheet602A3BAB/" tstamps="/602C5C7A/602A3BB3/"/>
+      <tstamp>602DCFF2</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOIC-16_4.55x10.3mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C5947</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6028E55B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C83056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6028E5A6</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6029F42E</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6029F43B</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6029F441</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6029F474</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6029F47A</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6029F480</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6029F486</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>6029F48C</tstamp>
+    </comp>
+    <comp ref="RN5">
+      <value>10k</value>
+      <footprint>holse:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C164037</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>602CF98C</tstamp>
+    </comp>
+    <comp ref="RN6">
+      <value>10k</value>
+      <footprint>holse:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C164037</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/Output Leds/sheet602A4627/" tstamps="/602C5C7A/602A462F/"/>
+      <tstamp>602DCFF2</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOIC-16_4.55x10.3mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C5947</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6028E55B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C83056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6028E5A6</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6029F42E</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6029F43B</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6029F441</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6029F474</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6029F47A</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6029F480</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6029F486</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C205441</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>6029F48C</tstamp>
+    </comp>
+    <comp ref="RN7">
+      <value>10k</value>
+      <footprint>holse:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C164037</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>602CF98C</tstamp>
+    </comp>
+    <comp ref="RN8">
+      <value>10k</value>
+      <footprint>holse:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C164037</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/Output Leds/sheet602A506B/" tstamps="/602C5C7A/602A5073/"/>
+      <tstamp>602DCFF2</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C99198</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/leds_btn/" tstamps="/60250CF0/"/>
+      <tstamp>604AD13F</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>LEDR</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <fields>
+        <field name="LCSC Part">C130114</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/leds_btn/" tstamps="/60250CF0/"/>
+      <tstamp>604AD145</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C99198</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/leds_btn/" tstamps="/60250CF0/"/>
+      <tstamp>604AD14C</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>LEDG</value>
+      <footprint>holse:LED_0805_2012Metric_Castellated</footprint>
+      <fields>
+        <field name="LCSC Part">C205442</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/leds_btn/" tstamps="/60250CF0/"/>
+      <tstamp>604AD152</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>BTN</value>
+      <footprint>Button_Switch_SMD:SW_SPST_EVPBF</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C620321</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/leds_btn/" tstamps="/60250CF0/"/>
+      <tstamp>604AD15A</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C86983</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/leds_btn/" tstamps="/60250CF0/"/>
+      <tstamp>604AD166</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C83056</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/leds_btn/" tstamps="/60250CF0/"/>
+      <tstamp>604AD16C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C177329</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/leds_btn/" tstamps="/60250CF0/"/>
+      <tstamp>604AD177</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>USB_B_Micro</value>
+      <footprint>holse:USB_Micro-B_Molex-105133-0001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C168716</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/USB/" tstamps="/6024B004/"/>
+      <tstamp>60204420</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C96423</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB/" tstamps="/6024B004/"/>
+      <tstamp>60204431</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C96423</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB/" tstamps="/6024B004/"/>
+      <tstamp>60204437</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C25989</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB/" tstamps="/6024B004/"/>
+      <tstamp>60204443</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C7519</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <sheetpath names="/USB/" tstamps="/6024B004/"/>
+      <tstamp>60204452</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <aliases>
+        <alias>74LS595</alias>
+        <alias>74HCT595</alias>
+        <alias>74AHC595</alias>
+        <alias>74AHCT595</alias>
+      </aliases>
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Female">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04">
+      <description>4 resistor network, parallel topology</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/usr/share/kicad/library/Power_Protection.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="SPIMOSI">
+      <node ref="J3" pin="7"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="2" name="USB-">
+      <node ref="R10" pin="1"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="3" name="USB+">
+      <node ref="R9" pin="1"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="4" name="LED_GREEN">
+      <node ref="R4" pin="1"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="5" name="BTN">
+      <node ref="C7" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="6" name="SPICLK">
+      <node ref="U3" pin="11"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="11"/>
+      <node ref="J3" pin="8"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="7" name="LED_RED">
+      <node ref="R5" pin="1"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="RN2" pin="4"/>
+      <node ref="RN2" pin="3"/>
+      <node ref="RN2" pin="2"/>
+      <node ref="RN2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="RN3" pin="1"/>
+      <node ref="RN3" pin="2"/>
+      <node ref="RN3" pin="3"/>
+      <node ref="RN3" pin="4"/>
+      <node ref="RN1" pin="3"/>
+      <node ref="RN8" pin="1"/>
+      <node ref="RN1" pin="4"/>
+      <node ref="RN7" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="RN7" pin="2"/>
+      <node ref="RN1" pin="2"/>
+      <node ref="RN7" pin="3"/>
+      <node ref="RN7" pin="4"/>
+      <node ref="RN8" pin="2"/>
+      <node ref="RN8" pin="3"/>
+      <node ref="RN8" pin="4"/>
+      <node ref="RN1" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="RN6" pin="2"/>
+      <node ref="RN5" pin="2"/>
+      <node ref="RN5" pin="1"/>
+      <node ref="RN6" pin="1"/>
+      <node ref="RN6" pin="3"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C5" pin="2"/>
+      <node ref="RN5" pin="4"/>
+      <node ref="RN6" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="RN5" pin="3"/>
+      <node ref="RN4" pin="4"/>
+      <node ref="RN4" pin="3"/>
+      <node ref="RN4" pin="2"/>
+      <node ref="RN4" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J4" pin="6"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="9" name="VCC">
+      <node ref="C2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="14" name="OLEDS_PUSH_DATA">
+      <node ref="J3" pin="9"/>
+      <node ref="U4" pin="12"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="15" name="Net-(J4-Pad1)">
+      <node ref="U5" pin="5"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="17" name="Net-(R8-Pad1)">
+      <node ref="U5" pin="4"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="18" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="19" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J4-Pad3)">
+      <node ref="U5" pin="3"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="21" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D34-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="D34" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="24" name="/Output Leds/OEnable">
+      <node ref="U2" pin="13"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U3" pin="13"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="25" name="/Output Leds/ONReg1">
+      <node ref="U1" pin="14"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="26" name="/Output Leds/Reset">
+      <node ref="U3" pin="10"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="27" name="/Output Leds/out_leds_8bit1/NextSerial">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="28" name="/Output Leds/ONReg3">
+      <node ref="U4" pin="9"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="29" name="/Output Leds/ONReg2">
+      <node ref="U3" pin="9"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="30" name="Net-(D8-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D7-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D6-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D5-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(D3-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="37" name="Net-(D2-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="RN2" pin="5"/>
+    </net>
+    <net code="39" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="RN1" pin="5"/>
+    </net>
+    <net code="40" name="Net-(D6-Pad1)">
+      <node ref="RN2" pin="7"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D7-Pad1)">
+      <node ref="RN2" pin="6"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D5-Pad1)">
+      <node ref="RN2" pin="8"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D1-Pad1)">
+      <node ref="RN1" pin="8"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="44" name="Net-(D3-Pad1)">
+      <node ref="RN1" pin="6"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="45" name="Net-(D2-Pad1)">
+      <node ref="RN1" pin="7"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D14-Pad1)">
+      <node ref="RN4" pin="7"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="47" name="Net-(D13-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D13-Pad1)">
+      <node ref="RN4" pin="8"/>
+      <node ref="D13" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="50" name="Net-(D10-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D11-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="RN3" pin="7"/>
+    </net>
+    <net code="53" name="Net-(D11-Pad1)">
+      <node ref="RN3" pin="6"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="54" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="55" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1"/>
+      <node ref="RN3" pin="8"/>
+    </net>
+    <net code="56" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1"/>
+      <node ref="RN3" pin="5"/>
+    </net>
+    <net code="57" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1"/>
+      <node ref="RN4" pin="5"/>
+    </net>
+    <net code="58" name="Net-(D14-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D16-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="61" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1"/>
+      <node ref="RN4" pin="6"/>
+    </net>
+    <net code="62" name="Net-(D21-Pad1)">
+      <node ref="D21" pin="1"/>
+      <node ref="RN6" pin="8"/>
+    </net>
+    <net code="63" name="Net-(D17-Pad1)">
+      <node ref="D17" pin="1"/>
+      <node ref="RN5" pin="8"/>
+    </net>
+    <net code="64" name="Net-(D17-Pad2)">
+      <node ref="U3" pin="15"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D18-Pad1)">
+      <node ref="RN5" pin="7"/>
+      <node ref="D18" pin="1"/>
+    </net>
+    <net code="66" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="67" name="Net-(D19-Pad1)">
+      <node ref="RN5" pin="6"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D20-Pad1)">
+      <node ref="RN5" pin="5"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D20-Pad2)">
+      <node ref="U3" pin="3"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D23-Pad1)">
+      <node ref="RN6" pin="6"/>
+      <node ref="D23" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D22-Pad1)">
+      <node ref="RN6" pin="7"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D21-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="75" name="Net-(D23-Pad2)">
+      <node ref="U3" pin="6"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D24-Pad1)">
+      <node ref="RN6" pin="5"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="77" name="Net-(D24-Pad2)">
+      <node ref="U3" pin="7"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="79" name="Net-(D29-Pad1)">
+      <node ref="RN8" pin="8"/>
+      <node ref="D29" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D29-Pad2)">
+      <node ref="U4" pin="4"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D30-Pad1)">
+      <node ref="RN8" pin="7"/>
+      <node ref="D30" pin="1"/>
+    </net>
+    <net code="82" name="Net-(D30-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D31-Pad1)">
+      <node ref="RN8" pin="6"/>
+      <node ref="D31" pin="1"/>
+    </net>
+    <net code="84" name="Net-(D31-Pad2)">
+      <node ref="U4" pin="6"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D32-Pad1)">
+      <node ref="RN8" pin="5"/>
+      <node ref="D32" pin="1"/>
+    </net>
+    <net code="86" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="87" name="Net-(D28-Pad1)">
+      <node ref="RN7" pin="5"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="88" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="89" name="Net-(D25-Pad1)">
+      <node ref="D25" pin="1"/>
+      <node ref="RN7" pin="8"/>
+    </net>
+    <net code="90" name="Net-(D26-Pad1)">
+      <node ref="RN7" pin="7"/>
+      <node ref="D26" pin="1"/>
+    </net>
+    <net code="91" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="92" name="Net-(D27-Pad1)">
+      <node ref="RN7" pin="6"/>
+      <node ref="D27" pin="1"/>
+    </net>
+    <net code="93" name="Net-(D27-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="D27" pin="2"/>
+    </net>
+  </nets>
+</export>

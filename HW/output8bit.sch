@@ -1,0 +1,361 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HC595 U?
+U 1 1 602B5772
+P 2750 1900
+AR Path="/601CB03C/602B5772" Ref="U?"  Part="1" 
+AR Path="/601CB03C/602A7221/602B5772" Ref="U2"  Part="1" 
+AR Path="/601CB03C/6038A336/602B5772" Ref="U4"  Part="1" 
+AR Path="/601CB03C/603D1D20/602B5772" Ref="U6"  Part="1" 
+AR Path="/601CB03C/60400221/602B5772" Ref="U8"  Part="1" 
+AR Path="/602B53C5/602A7221/602B5772" Ref="U?"  Part="1" 
+AR Path="/602B53C5/6038A336/602B5772" Ref="U?"  Part="1" 
+AR Path="/602B53C5/603D1D20/602B5772" Ref="U?"  Part="1" 
+AR Path="/602B53C5/60400221/602B5772" Ref="U?"  Part="1" 
+AR Path="/602C5C7A/602CD86A/602B5772" Ref="U?"  Part="1" 
+AR Path="/602C5C7A/602CD883/602B5772" Ref="U?"  Part="1" 
+AR Path="/602C5C7A/602CD897/602B5772" Ref="U?"  Part="1" 
+AR Path="/602C5C7A/602CD8AA/602B5772" Ref="U?"  Part="1" 
+F 0 "U8" H 2450 2550 50  0000 C CNN
+F 1 "74HC595" H 2450 2450 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 2750 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2750 1900 50  0001 C CNN
+F 4 "C5947" H 2750 1900 50  0001 C CNN "LCSC Part"
+	1    2750 1900
+	1    0    0    -1  
+$EndComp
+Entry Bus Bus
+	3400 1500 3500 1600
+Entry Bus Bus
+	3400 1600 3500 1700
+Entry Bus Bus
+	3400 1700 3500 1800
+Entry Bus Bus
+	3400 1800 3500 1900
+Entry Bus Bus
+	3400 1900 3500 2000
+Entry Bus Bus
+	3400 2000 3500 2100
+Entry Bus Bus
+	3400 2100 3500 2200
+Entry Bus Bus
+	3400 2200 3500 2300
+Text Label 3150 1500 0    50   ~ 0
+lo1
+Text Label 3150 1600 0    50   ~ 0
+lo2
+Text Label 3150 1700 0    50   ~ 0
+lo3
+Text Label 3150 1800 0    50   ~ 0
+lo4
+Text Label 3150 1900 0    50   ~ 0
+lo5
+Text Label 3150 2000 0    50   ~ 0
+lo6
+Text Label 3150 2100 0    50   ~ 0
+lo7
+Text Label 3150 2200 0    50   ~ 0
+lo8
+Text Label 3500 1600 0    50   ~ 0
+lo8
+Text Label 3500 1700 0    50   ~ 0
+lo7
+Text Label 3500 1800 0    50   ~ 0
+lo6
+Text Label 3500 1900 0    50   ~ 0
+lo5
+Text Label 3500 2000 0    50   ~ 0
+lo4
+Text Label 3500 2100 0    50   ~ 0
+lo3
+Text Label 3500 2200 0    50   ~ 0
+lo2
+Text Label 3500 2300 0    50   ~ 0
+lo1
+Entry Bus Bus
+	3300 1500 3400 1400
+Entry Bus Bus
+	3300 1600 3400 1500
+Entry Bus Bus
+	3300 1700 3400 1600
+Entry Bus Bus
+	3300 1800 3400 1700
+Entry Bus Bus
+	3300 1900 3400 1800
+Entry Bus Bus
+	3300 2000 3400 1900
+Entry Bus Bus
+	3300 2100 3400 2000
+Entry Bus Bus
+	3300 2200 3400 2100
+Wire Wire Line
+	3500 1600 3650 1600
+Wire Wire Line
+	3500 1700 3650 1700
+Wire Wire Line
+	3500 1800 3650 1800
+Wire Wire Line
+	3500 1900 3650 1900
+Wire Wire Line
+	3500 2000 3650 2000
+Wire Wire Line
+	3500 2100 3650 2100
+Wire Wire Line
+	3500 2200 3650 2200
+Wire Wire Line
+	3500 2300 3650 2300
+Wire Wire Line
+	3150 2200 3300 2200
+Wire Wire Line
+	3150 2100 3300 2100
+Wire Wire Line
+	3150 2000 3300 2000
+Wire Wire Line
+	3150 1900 3300 1900
+Wire Wire Line
+	3150 1800 3300 1800
+Wire Wire Line
+	3150 1700 3300 1700
+Wire Wire Line
+	3150 1600 3300 1600
+Wire Wire Line
+	3150 1500 3300 1500
+$Comp
+L power:GND #PWR?
+U 1 1 602B57A8
+P 2100 2800
+AR Path="/601CB03C/602B57A8" Ref="#PWR?"  Part="1" 
+AR Path="/601CB03C/602A7221/602B57A8" Ref="#PWR025"  Part="1" 
+AR Path="/601CB03C/6038A336/602B57A8" Ref="#PWR029"  Part="1" 
+AR Path="/601CB03C/603D1D20/602B57A8" Ref="#PWR033"  Part="1" 
+AR Path="/601CB03C/60400221/602B57A8" Ref="#PWR037"  Part="1" 
+AR Path="/602B53C5/602A7221/602B57A8" Ref="#PWR?"  Part="1" 
+AR Path="/602B53C5/6038A336/602B57A8" Ref="#PWR?"  Part="1" 
+AR Path="/602B53C5/603D1D20/602B57A8" Ref="#PWR?"  Part="1" 
+AR Path="/602B53C5/60400221/602B57A8" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD86A/602B57A8" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD883/602B57A8" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD897/602B57A8" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD8AA/602B57A8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR037" H 2100 2550 50  0001 C CNN
+F 1 "GND" H 2105 2627 50  0000 C CNN
+F 2 "" H 2100 2800 50  0001 C CNN
+F 3 "" H 2100 2800 50  0001 C CNN
+	1    2100 2800
+	1    0    0    -1  
+$EndComp
+Text Label 2050 1700 0    50   ~ 0
+OCLK
+Text Label 2050 1800 0    50   ~ 0
+Reset
+Text Label 2050 2000 0    50   ~ 0
+OPush
+Text Label 2050 2100 0    50   ~ 0
+OEnable
+Wire Wire Line
+	2050 1500 2350 1500
+Wire Wire Line
+	2050 1700 2350 1700
+Wire Wire Line
+	2050 1800 2350 1800
+Wire Wire Line
+	2050 2000 2350 2000
+Wire Wire Line
+	2050 2100 2350 2100
+$Comp
+L power:VCC #PWR?
+U 1 1 602B57C4
+P 2750 1300
+AR Path="/601CB03C/602B57C4" Ref="#PWR?"  Part="1" 
+AR Path="/601CB03C/602A7221/602B57C4" Ref="#PWR024"  Part="1" 
+AR Path="/601CB03C/6038A336/602B57C4" Ref="#PWR028"  Part="1" 
+AR Path="/601CB03C/603D1D20/602B57C4" Ref="#PWR032"  Part="1" 
+AR Path="/601CB03C/60400221/602B57C4" Ref="#PWR036"  Part="1" 
+AR Path="/602B53C5/602A7221/602B57C4" Ref="#PWR?"  Part="1" 
+AR Path="/602B53C5/6038A336/602B57C4" Ref="#PWR?"  Part="1" 
+AR Path="/602B53C5/603D1D20/602B57C4" Ref="#PWR?"  Part="1" 
+AR Path="/602B53C5/60400221/602B57C4" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD86A/602B57C4" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD883/602B57C4" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD897/602B57C4" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD8AA/602B57C4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR036" H 2750 1150 50  0001 C CNN
+F 1 "VCC" H 2765 1473 50  0000 C CNN
+F 2 "" H 2750 1300 50  0001 C CNN
+F 3 "" H 2750 1300 50  0001 C CNN
+	1    2750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 602B57CA
+P 2150 2500
+AR Path="/601CB03C/602B57CA" Ref="C?"  Part="1" 
+AR Path="/601CB03C/602A7221/602B57CA" Ref="C10"  Part="1" 
+AR Path="/601CB03C/6038A336/602B57CA" Ref="C11"  Part="1" 
+AR Path="/601CB03C/603D1D20/602B57CA" Ref="C12"  Part="1" 
+AR Path="/601CB03C/60400221/602B57CA" Ref="C13"  Part="1" 
+AR Path="/602B53C5/602A7221/602B57CA" Ref="C?"  Part="1" 
+AR Path="/602B53C5/6038A336/602B57CA" Ref="C?"  Part="1" 
+AR Path="/602B53C5/603D1D20/602B57CA" Ref="C?"  Part="1" 
+AR Path="/602B53C5/60400221/602B57CA" Ref="C?"  Part="1" 
+AR Path="/602C5C7A/602CD86A/602B57CA" Ref="C?"  Part="1" 
+AR Path="/602C5C7A/602CD883/602B57CA" Ref="C?"  Part="1" 
+AR Path="/602C5C7A/602CD897/602B57CA" Ref="C?"  Part="1" 
+AR Path="/602C5C7A/602CD8AA/602B57CA" Ref="C?"  Part="1" 
+F 0 "C13" H 2242 2546 50  0000 L CNN
+F 1 "0,1uF" H 2242 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2150 2500 50  0001 C CNN
+F 3 "~" H 2150 2500 50  0001 C CNN
+F 4 "C83056" H 2150 2500 50  0001 C CNN "LCSC Part"
+	1    2150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 602B57D0
+P 2150 2400
+AR Path="/601CB03C/602B57D0" Ref="#PWR?"  Part="1" 
+AR Path="/601CB03C/602A7221/602B57D0" Ref="#PWR023"  Part="1" 
+AR Path="/601CB03C/6038A336/602B57D0" Ref="#PWR027"  Part="1" 
+AR Path="/601CB03C/603D1D20/602B57D0" Ref="#PWR031"  Part="1" 
+AR Path="/601CB03C/60400221/602B57D0" Ref="#PWR035"  Part="1" 
+AR Path="/602B53C5/602A7221/602B57D0" Ref="#PWR?"  Part="1" 
+AR Path="/602B53C5/6038A336/602B57D0" Ref="#PWR?"  Part="1" 
+AR Path="/602B53C5/603D1D20/602B57D0" Ref="#PWR?"  Part="1" 
+AR Path="/602B53C5/60400221/602B57D0" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD86A/602B57D0" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD883/602B57D0" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD897/602B57D0" Ref="#PWR?"  Part="1" 
+AR Path="/602C5C7A/602CD8AA/602B57D0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR035" H 2150 2250 50  0001 C CNN
+F 1 "VCC" H 2165 2573 50  0000 C CNN
+F 2 "" H 2150 2400 50  0001 C CNN
+F 3 "" H 2150 2400 50  0001 C CNN
+	1    2150 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2600 2550 2600
+Text Label 4450 2300 0    50   ~ 0
+oa1
+Text Label 4450 2200 0    50   ~ 0
+oa2
+Text Label 4450 2100 0    50   ~ 0
+oa3
+Text Label 4450 2000 0    50   ~ 0
+oa4
+Text Label 4450 1900 0    50   ~ 0
+oa5
+Text Label 4450 1800 0    50   ~ 0
+oa6
+Text Label 4450 1700 0    50   ~ 0
+oa7
+Text Label 4450 1600 0    50   ~ 0
+oa8
+Text Label 4450 1500 0    50   ~ 0
+oaCOM
+Wire Wire Line
+	4450 1500 4700 1500
+Wire Wire Line
+	4700 1600 4450 1600
+Wire Wire Line
+	4450 1700 4700 1700
+Wire Wire Line
+	4700 1800 4450 1800
+Wire Wire Line
+	4450 1900 4700 1900
+Wire Wire Line
+	4450 2000 4700 2000
+Wire Wire Line
+	4700 2100 4450 2100
+Wire Wire Line
+	4700 2200 4450 2200
+Wire Wire Line
+	4700 2300 4450 2300
+Text HLabel 2050 1500 0    50   Input ~ 0
+Serial
+Text HLabel 2050 1700 0    50   Input ~ 0
+CLK
+Text HLabel 2050 1800 0    50   Input ~ 0
+Reset
+Text HLabel 2050 2000 0    50   Input ~ 0
+Push
+Text HLabel 2050 2100 0    50   Input ~ 0
+Enable
+Text HLabel 3150 2400 2    50   Output ~ 0
+NextSerial
+Text HLabel 4700 1600 2    50   Output ~ 0
+O8
+Text HLabel 4700 1700 2    50   Output ~ 0
+O7
+Text HLabel 4700 1800 2    50   Output ~ 0
+O6
+Text HLabel 4700 1900 2    50   Output ~ 0
+O5
+Text HLabel 4700 2000 2    50   Output ~ 0
+O4
+Text HLabel 4700 2100 2    50   Output ~ 0
+O3
+Text HLabel 4700 2200 2    50   Output ~ 0
+O2
+Text HLabel 4700 2300 2    50   Output ~ 0
+O1
+Text HLabel 4700 1500 2    50   Input ~ 0
+OCOM
+$Comp
+L Transistor_Array:ULN2803A U?
+U 1 1 602B576C
+P 4050 1800
+AR Path="/601CB03C/602B576C" Ref="U?"  Part="1" 
+AR Path="/601CB03C/602A7221/602B576C" Ref="U3"  Part="1" 
+AR Path="/601CB03C/6038A336/602B576C" Ref="U5"  Part="1" 
+AR Path="/601CB03C/603D1D20/602B576C" Ref="U7"  Part="1" 
+AR Path="/601CB03C/60400221/602B576C" Ref="U9"  Part="1" 
+AR Path="/602B53C5/602A7221/602B576C" Ref="U?"  Part="1" 
+AR Path="/602B53C5/6038A336/602B576C" Ref="U?"  Part="1" 
+AR Path="/602B53C5/603D1D20/602B576C" Ref="U?"  Part="1" 
+AR Path="/602B53C5/60400221/602B576C" Ref="U?"  Part="1" 
+AR Path="/602C5C7A/602CD86A/602B576C" Ref="U?"  Part="1" 
+AR Path="/602C5C7A/602CD883/602B576C" Ref="U?"  Part="1" 
+AR Path="/602C5C7A/602CD897/602B576C" Ref="U?"  Part="1" 
+AR Path="/602C5C7A/602CD8AA/602B576C" Ref="U?"  Part="1" 
+F 0 "U9" H 4050 2367 50  0000 C CNN
+F 1 "ULN2803A" H 4050 2276 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 4100 1150 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 4150 1600 50  0001 C CNN
+F 4 "C9683" H 4050 1800 50  0001 C CNN "LCSC Part"
+	1    4050 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2600 2550 4300
+Wire Wire Line
+	2550 4300 4050 4300
+Wire Wire Line
+	4050 4300 4050 2500
+Connection ~ 2550 2600
+Wire Wire Line
+	2550 2600 2750 2600
+Connection ~ 2150 2600
+Wire Wire Line
+	2100 2800 2150 2800
+Wire Wire Line
+	2150 2600 2150 2800
+Wire Bus Line
+	3400 1400 3400 2200
+$EndSCHEMATC
